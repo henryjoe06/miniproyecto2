@@ -1,0 +1,42 @@
+.main-img1{
+  width: 300px;   /* el tamaño que quieras */
+  height: auto;   /* mantiene la proporción */
+}
+.main-img2{
+  max-width: 100%;  /* nunca será más grande que el contenedor */
+  height: auto;     /* evita deformaciones */
+}
+.main-img3{
+  transform: scale(0.7); /* reduce al 50% */
+}
+.img-alinacion{
+    float: right;
+    display: block;     /* convierte la imagen en bloque */
+    margin: 0 auto;     /* márgenes automáticos a izquierda y derecha */
+}
+.contenedor{
+    text-align: center;
+
+}
+.fut-grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 16px;                   /* espacio entre cartas */
+  align-items: start;          /* alinea verticalmente */
+  justify-items: center;       /* centra cada carta dentro de su celda */
+  max-width: 1200px;
+  margin: 0 auto;              /* centra el grid en la página */
+  padding: 16px;
+}
+.card {
+  width: 160px;                /* fija ancho de carta */
+  aspect-ratio: 3 / 4;         /* mantiene proporción (ej. 120x160) */
+  background: #1a1a1a;
+  border-radius: 12px;
+  border: 2px solid #555;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-weight: 700;
+}
