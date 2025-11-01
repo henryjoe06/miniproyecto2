@@ -1,6 +1,6 @@
 /*estilos generales*/
 body{
-    background-color: rgb(26, 62, 180);
+    background-color: rgb(27, 74, 228);
 
 }
 .img-resize{
@@ -29,6 +29,6 @@ body{
   display: block;
   padding: 12px;
   text-decoration: none; /* quita subrayado */
-  color: rgb(26, 22, 22);
+  color: rgb(221, 23, 23);
  
 }
