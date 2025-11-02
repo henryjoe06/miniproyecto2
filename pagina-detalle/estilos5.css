@@ -1,3 +1,11 @@
 body{
-    background-color: brown;
+    background-color: rgb(23, 235, 153);
+}
+.carta{
+  max-width: 200px;
+  height: 200px;
+}
+.tam-flec{
+  max-width: 100px;
+  height: 100px;
 }
