@@ -1,6 +1,9 @@
 /*estilos generales*/
 body{
-    background-color: rgb(27, 74, 228);
+  background-image: url(fondo_barcelona/FC_Barcelona-HMD_Barca_Fusion-Background.webp);
+}
+.color{
+color: rgb(9, 89, 236);
 
 }
 .img-resize{
@@ -28,7 +31,7 @@ body{
   display: block;
   padding: 12px;
   text-decoration: none; /* quita subrayado */
-  color: rgb(221, 23, 23);
+  color: rgb(26, 145, 243);
   
 }
 

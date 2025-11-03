@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(23, 235, 153);
+  background-image: url(../fondo_barcelona/FC_Barcelona-HMD_Barca_3210-Background.webp);
 }
 .carta{
   max-width: 200px;
@@ -11,4 +11,7 @@ body{
 }
 .menu li{
   list-style: none; /*quitar los puntos de los li*/
+}
+.color{
+  color: rgb(12, 215, 230);
 }
