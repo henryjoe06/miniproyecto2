@@ -9,3 +9,6 @@ body{
   max-width: 100px;
   height: 100px;
 }
+.menu li{
+  list-style: none; /*quitar los puntos de los li*/
+}
